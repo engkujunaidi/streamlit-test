@@ -9,6 +9,6 @@ gender = st.radio("Pick your gender",['Male','Female'])
 
 st.write("Your gender is " + gender)
 
-born_year = st.number_input("Your born year: ",1990)
+born_year = st.number_input("Your born year: ",1900, 2100)
 age = year - born_year
 st.write("Your age is ",age)
